@@ -1,0 +1,77 @@
+.contenedor-abuelo{
+    display: flex;
+    background-color: black;
+    width: 700px;
+    height: 700px;
+    justify-content: space-between;
+    flex-direction: row;
+    }
+
+.contenedorPadre1{
+display: flex;
+background-color: black;
+width: 100%;
+height: 100%;
+justify-content: space-between;
+flex-direction: column;
+align-items: start;
+}
+
+.contenedorPadre2{
+display: flex;
+background-color: black;
+width: 100%;
+height: 100%;
+justify-content: space-between;
+flex-direction: column;
+align-items: end;
+}
+
+.contenedor-hijo1{
+display: flex;
+background-color: red;
+width: 150px;
+height: 150px;
+justify-content: center;
+
+}
+
+.contenedor-hijo2{
+display: flex;
+background-color: blue;
+width: 150px;
+height: 150px; 
+}
+
+.contenedor-hijo3{
+display: flex;
+background-color: green;
+width: 75px;
+height: 150px;
+align-self: flex-start;
+}
+
+.contenedor-hijo4{
+display: flex;
+background-color: yellow;
+width: 150px;
+height: 150px;
+
+}
+
+.contenedor-hijo5{
+display: flex;
+background-color: cyan;
+width: 150px;
+height: 150px;
+justify-content: center;
+align-content: space-between;
+}
+
+.contenedor-hijo6{
+    display: flex;
+    background-color: green;
+    width: 75px;
+    height: 150px;
+    align-self: end;
+}
